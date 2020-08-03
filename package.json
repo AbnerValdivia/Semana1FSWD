@@ -1,0 +1,19 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbnerValdivia/Semana1FSWD.git"
+  },
+  "author": "Alejandro Valdivia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbnerValdivia/Semana1FSWD/issues"
+  },
+  "homepage": "https://github.com/AbnerValdivia/Semana1FSWD#readme"
+}
