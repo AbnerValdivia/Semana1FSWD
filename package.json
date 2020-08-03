@@ -4,6 +4,7 @@
   "description": "Nuestro primer proyecto de Nodejs",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AbnerValdivia/Semana1FSWD/issues"
   },
-  "homepage": "https://github.com/AbnerValdivia/Semana1FSWD#readme"
+  "homepage": "https://github.com/AbnerValdivia/Semana1FSWD#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {},
+  "keywords": []
 }
