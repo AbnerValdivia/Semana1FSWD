@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
 
     <title>Hello, world!</title>
   </head>
@@ -16,19 +17,19 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md">
+			<div class="col-sm-4">
 		  		<p>
 		  			<h3>Hotel 1</h3>
 					Este hotel está bien chidito
 		  		</p>
 		  	</div>
-		  	<div class="col-md">
+		  	<div class="col-sm-4">
 		  		<p>
 		  			<h3>Hotel 2</h3>
 					Este hotel está bien chidito
 		  		</p>
 		  	</div>
-		  	<div class="col-md">
+		  	<div class="col-sm-4">
 		  		<p>
 					<h3>Hotel 3</h3>
 					Este hotel está bien chidito
@@ -36,30 +37,81 @@
 		  	</div>
 		</div>
 		<hr>
-		<div class="row">
-			<div class="col-md">
+		<div class="d-flex flex-wrap">
+			<div class="card-hotel d-flex flex-column justify-content-between">
 				<h4>Hotel Naranjos</h4>
 				<p>Hotel ubicado frente a mi tienda.</p>
-				<button>Reservar</button>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
 			</div>
-			<div class="col-md">
+			<div class="card-hotel d-flex flex-column justify-content-between">
 				<h4>Hotel San Teofilo</h4>
 				<p>Hotel ubicado frente a la carretera.</p>
-				<button>Reservar</button>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
 			</div>
-
-			<div class="col-md">
+			<div class="card-hotel d-flex flex-column justify-content-between">
 				<h4>Hotel Imperial</h4>
 				<p>Hotel ubicado frente a la otra tienda.</p>
-				<button>Reservar</button>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
 			</div>
-			<div class="col-md">
+			<div class="card-hotel d-flex flex-column justify-content-between">
 				<h4>Hotel Iventado</h4>
 				<p>Hotel ubicado frente a quien sabe, un lugar mágico e inventado también.</p>
-				<button>Reservar</button>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<h4>Hotel San Teofilo</h4>
+				<p>Hotel ubicado frente a la carretera.</p>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<h4>Hotel Imperial</h4>
+				<p>Hotel ubicado frente a la otra tienda.</p>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<h4>Hotel Iventado</h4>
+				<p>Hotel ubicado frente a quien sabe, un lugar mágico e inventado también.</p>
+				<div>
+					<button class="btn btn-primary btn-reserva">Reservar</button>
+				</div>
 			</div>
 		</div>
 	</div>
+	<footer>
+		<div class="row">
+			<div class="col-sm-4 d-flex flex-column">
+				<a href="http://www.facebook.com">Facebook </a>
+				<a href="http://www.Instagram.com">Instagram</a>
+				<a href="http://www.twitter.com">Twitter </a>
+				<a href="http://www.Google.com">Google+</a>
+			</div>
+			<div class="col-sm-4">
+				<address>
+					<h5>Por aqui, por alla, Mexico</h5>
+					<p>+989652598</p>
+					<p>contactp@email.com</p>
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column">
+				<a href="http://www.facebook.com">Nosotros</a>
+				<a href="http://www.Instagram.com">Acerca De</a>
+				<a href="http://www.twitter.com">Contacto</a>
+				<a href="http://www.Google.com">Términos y Condiciones</a>
+			</div>
+		</div>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
